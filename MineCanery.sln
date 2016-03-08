@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeakCanary", "LeakCanary\LeakCanary.csproj", "{71BA5744-FAB9-4C7B-95A3-8FFEEBCB2D50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeakCanary.Analyzer", "LeakCanary.Analyzer\LeakCanary.Analyzer.csproj", "{333F9DBF-E001-4283-B2C1-0310781394C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeakCanary.Watcher", "LeakCanary.Watcher\LeakCanary.Watcher.csproj", "{87E49685-0403-4D56-B92E-2AABBD6F643B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineCanery", "MineCanery\MineCanery.csproj", "{45B4409E-D874-4B8A-B3C2-A0B5A1B23A3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{333F9DBF-E001-4283-B2C1-0310781394C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333F9DBF-E001-4283-B2C1-0310781394C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333F9DBF-E001-4283-B2C1-0310781394C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333F9DBF-E001-4283-B2C1-0310781394C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B4409E-D874-4B8A-B3C2-A0B5A1B23A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B4409E-D874-4B8A-B3C2-A0B5A1B23A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B4409E-D874-4B8A-B3C2-A0B5A1B23A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B4409E-D874-4B8A-B3C2-A0B5A1B23A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71BA5744-FAB9-4C7B-95A3-8FFEEBCB2D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BA5744-FAB9-4C7B-95A3-8FFEEBCB2D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BA5744-FAB9-4C7B-95A3-8FFEEBCB2D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BA5744-FAB9-4C7B-95A3-8FFEEBCB2D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E49685-0403-4D56-B92E-2AABBD6F643B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E49685-0403-4D56-B92E-2AABBD6F643B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E49685-0403-4D56-B92E-2AABBD6F643B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E49685-0403-4D56-B92E-2AABBD6F643B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
